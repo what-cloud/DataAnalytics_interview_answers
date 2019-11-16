@@ -1,0 +1,109 @@
+--A1
+
+
+with get_running_total as
+(
+SELECT name,turn,SUM(weight) 
+over (order by turn asc rows between unbounded preceding and current row) as total_weight
+from
+line
+)
+
+select name from get_running_total
+where total_weight<=1000 and turn in 
+(select max(turn) from get_running_total
+
+)
+
+
+-- A2, note 0 tickets is also a valid records!!!)
+
+-- write your code in PostgreSQL 9.4
+WITH
+reserve_rank
+AS
+(
+    SELECT 
+    plays.id AS id,
+    plays.title AS title,
+    COALESCE( SUM(number_of_tickets),0) as reserved_tickets 
+    
+    
+    FROM plays
+    LEFT OUTER JOIN reservations
+    ON plays.id = reservations.play_id
+    
+    GROUP BY 
+    plays.id,
+    plays.title
+)
+
+SELECT 
+    id,
+    title,
+    reserved_tickets
+FROM
+    reserve_rank
+ORDER BY
+    reserved_tickets desc,
+    id asc
+
+-- write your code in PostgreSQL 9.4
+WITH
+lmt as
+(
+    select max(page_no) as max_value from recipes
+),
+
+all_pages as
+(SELECT 
+generate_series(0, (select * from lmt)) as pages
+),
+
+combined as
+(
+select pages,
+recipes.title 
+
+FROM all_pages
+LEFT OUTER JOIN
+    recipes
+ON all_pages.pages=recipes.page_no
+),
+
+formatted as
+
+(
+select 
+
+pages,
+MOD(pages,2) as seq,
+title as left_title,
+LEAD(title) over (order by pages asc) as right_title
+from 
+combined
+)
+
+select
+
+left_title,
+right_title
+from
+formatted
+where
+seq=0
+/*
+where MOD(pages,2)=0
+where
+=0
+
+
+SELECT MOD(page_no,2), * FROM
+recipes
+WHERE
+MOD(page_no,2)=1;
+
+
+
+
+*/
