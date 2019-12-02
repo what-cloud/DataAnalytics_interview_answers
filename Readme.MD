@@ -27,3 +27,5 @@ Online Python/SQL test with time limit
 ### 
 
 
+weremote:
+ ETL processes in a variety of platforms (Matillion {required}, Pentaho, Microstrategy, Talend, CloverETL, FiveTran, Stitch)
