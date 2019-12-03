@@ -3,6 +3,9 @@ Unless the answer contains confidential information explicitly, any questions I 
 Certifications and skills that might be useful:
 
 SnowPro certification (Snowflake data warehouse) - I found quite a few fin-tech or internet companies using them, such as Gitlab, Prospa, Accenture etc.
+
+NoSQL-ElasticSearch
+
 ## Selected interview records:
 
 ### Gitlab (a remote company):
@@ -27,5 +30,5 @@ Online Python/SQL test with time limit
 ### 
 
 
-weremote:
+weRemote:
  ETL processes in a variety of platforms (Matillion {required}, Pentaho, Microstrategy, Talend, CloverETL, FiveTran, Stitch)
