@@ -32,3 +32,12 @@ Online Python/SQL test with time limit
 
 weRemote:
  ETL processes in a variety of platforms (Matillion {required}, Pentaho, Microstrategy, Talend, CloverETL, FiveTran, Stitch)
+ 
+ BI engineer:
+
+    Traditional data warehouse skills - ETL / SSIS / Informatica /
+    Strong SQL / data mapping / data migration experience
+    Cloud technologies such - AWS / Azure / Big Insights
+    Big data tech - Hadoop / Hive / Spark / etc
+    Data integration tools - Talend / Informatica / Mulesoft
+    Python / R  / NoSQL / MongoDB 
