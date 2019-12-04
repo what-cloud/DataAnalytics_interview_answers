@@ -41,3 +41,19 @@ weRemote:
     Big data tech - Hadoop / Hive / Spark / etc
     Data integration tools - Talend / Informatica / Mulesoft
     Python / R  / NoSQL / MongoDB 
+
+## tell fake data scientist
+
+A few that I particularly like:
+1) Explain a p-value
+2) Explain how diversity reduces error and bias in ensemble methods
+3) How do gradient boosting and bagging differ theoretically (and in deployment within a system)
+4) Name and explain 3 different dimensionality reduction strategies
+5) Explain boostrapping and its practical uses in machine learning
+6) Explain the math behind PageRank and how linear algebra in general can be used on graph/network problems
+7) How would you explain random forest to a kindergartener using the objects in this room
+8) Explain one contribution of topology/geometry to the field of statistics and machine learning in detail
+9) When is it not appropriate to use deep learning methods on a problem
+10) Explain Bayes Theorem in layman's terms
+11) Why is a control group necessary for testing
+Those should cover a breadth of important topics and give an idea of a person's depth as a data scientist beyond knowing the basics behind buzz-words.
