@@ -6,6 +6,8 @@ SnowPro certification (Snowflake data warehouse) - I found quite a few fin-tech 
 
 NoSQL-ElasticSearch
 
+Data integration:Kafka,Nifi. Data Wrangling:Lavastorm (COnsulting)
+
 ## Selected interview records:
 
 ### Gitlab (a remote company):
