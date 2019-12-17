@@ -3,11 +3,12 @@ Unless the answer contains confidential information explicitly, any questions I 
 Certifications and skills that might be useful:
 
 SnowPro certification (Snowflake data warehouse) - I found quite a few fin-tech or internet companies using them, such as Gitlab, Prospa, Accenture etc.
+Mongo DB什么时候适合用 [https://www.mongodb.com/blog/post/an-introduction-to-change-streams]
 
 NoSQL-ElasticSearch
 
 Data integration:Kafka,Nifi. Data Wrangling:Lavastorm (COnsulting)
-
+Mongo (document DB)might be a way to capture change, otherwise new columns/rename may break UI
 ## Selected interview records:
 
 ### Gitlab (a remote company):
