@@ -5,6 +5,8 @@ Certifications and skills that might be useful:
 SnowPro certification (Snowflake data warehouse) - I found quite a few fin-tech or internet companies using them, such as Gitlab, Prospa, Accenture etc.
 Mongo DB什么时候适合用 [https://www.mongodb.com/blog/post/an-introduction-to-change-streams]
 
+Google Analytics cert on GCP (Coursera) free 7 days: https://google.qwiklabs.com/courses/905&utm_source=cloud-dot-google&utm_medium=website
+
 NoSQL-ElasticSearch
 
 Data integration:Kafka,Nifi. Data Wrangling:Lavastorm (COnsulting)
