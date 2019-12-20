@@ -7,6 +7,8 @@ Mongo DB什么时候适合用 [https://www.mongodb.com/blog/post/an-introduction
 
 Google Analytics cert on GCP (Coursera) free 7 days: https://google.qwiklabs.com/courses/905&utm_source=cloud-dot-google&utm_medium=website
 
+https://towardsdatascience.com/https-medium-com-martin-weitzmann-bigquery-sql-on-nested-data-cf9589c105f4
+
 NoSQL-ElasticSearch
 
 Data integration:Kafka,Nifi. Data Wrangling:Lavastorm (COnsulting)
