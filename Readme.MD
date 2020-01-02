@@ -11,6 +11,9 @@ https://towardsdatascience.com/https-medium-com-martin-weitzmann-bigquery-sql-on
 
 NoSQL-ElasticSearch
 
+Research new skills: https://druid.apache.org/docs/latest/development/extensions-core/datasketches-extension.html
+
+
 Data integration:Kafka,Nifi. Data Wrangling:Lavastorm (COnsulting)
 Mongo (document DB)might be a way to capture change, otherwise new columns/rename may break UI
 ## Selected interview records:
