@@ -37,6 +37,13 @@ Possible reasons: could be location? or culture fit
 ### Prospa
 
 passed online ETL python test (time suggested 90 minutes) , did a code review regarding formatting, devops, pipeline
+DW最重要3个与数据库区别 因columna 所以是:bulk loading, encoding, compression. 我说Sort Key Distribtion Key 
+hot fix? On Prod I would have a planned script.他说直接改
+incremental loading: 1. detect change using timestamp, compare value?3. deal with change dimension
+
+Best practice of jupytor notebook.:我就说我写大的
+How do you design 1 人偏啰嗦500 变量。不停小提交做trail.允许下游改code, 2 reviews.
+
 
 ### Toptal
 
