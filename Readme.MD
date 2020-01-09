@@ -17,6 +17,15 @@ Research new skills: https://druid.apache.org/docs/latest/development/extensions
 Data integration:Kafka,Nifi. Data Wrangling:Lavastorm (COnsulting)
 Mongo (document DB)might be a way to capture change, otherwise new columns/rename may break UI
 ## Selected interview records:
+decimal
+convert to date CAST(x=1 AS STRING)
+datepart: EXTRACT( day/month FROM field)
+Q1
+daily balance (get each day each cust's last trans - considering 0 balance or no trans)
+Q2.
+get amount change of chosen customer (bonus Q)
+Q3.
+get each centres' percentage( maybe instead of cartesian, use sum over partition by)
 
 ### Gitlab (a remote company):
 
